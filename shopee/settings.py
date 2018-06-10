@@ -79,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE'    : 'django.db.backends.postgresql',
         'NAME'      : 'shopee',
-        'USER'      : 'postgres', # DB host
+        'USER'      : 'postgres',
         'PASSWORD'  : '123456',
-        'HOST'      : 'localhost',
+        'HOST'      : 'localhost',# DB host
         'PORT'      : '5432',
     }
 }
