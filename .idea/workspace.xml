@@ -1,0 +1,2673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6cc6f78-7bbb-4146-90b4-c2c1a4abf5aa" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="shopee@35.227.64.193" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="shopee@35.227.64.193" type="e3449647:DbNodeDescriptor" />
+        <item name="shopee" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="shopee@35.227.64.193" type="e3449647:DbNodeDescriptor" />
+        <item name="shopee" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="shopee@35.227.64.193" type="e3449647:DbNodeDescriptor" />
+        <item name="shopee" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+        <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="useSoftWraps" value="true" />
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler/templates/shopee/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="135" column="105" lean-forward="false" selection-start-line="135" selection-start-column="105" selection-end-line="135" selection-end-column="105" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_crawler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler/crawlers/product_crawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopee/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="728">
+              <caret line="107" column="47" lean-forward="false" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shopee/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="81" column="43" lean-forward="false" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_refactor_data</find>
+      <find>itemid</find>
+      <find>author_name</find>
+      <find>ShopeeUser</find>
+      <find>tree.Node</find>
+      <find>cookie_list</find>
+      <find>0.2</find>
+      <find>luận</find>
+      <find>khả quang</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>1</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/crawler/crawlers/category_crawler.py" />
+        <option value="$PROJECT_DIR$/crawler/crawlers/product_crawler.py" />
+        <option value="$PROJECT_DIR$/shopee/urls.py" />
+        <option value="$PROJECT_DIR$/crawler/views.py" />
+        <option value="$PROJECT_DIR$/crawler/templates/base.html" />
+        <option value="$PROJECT_DIR$/crawler/models.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/tasks.py" />
+        <option value="$PROJECT_DIR$/crawler/templates/shopee/list.html" />
+        <option value="$PROJECT_DIR$/shopee/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="321" />
+    <option name="width" value="1362" />
+    <option name="height" value="671" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource Scope="true" ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="shopee" type="cbb8eebc:String" user="shopee" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shopee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopee" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopee" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="crawlers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopee" type="462c0819:PsiDirectoryNode" />
+              <item name="shopee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="shopee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.1 virtualenv at ~/facebook_tools &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="shopee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.1 virtualenv at ~/facebook_tools &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="-1084259904" type="70582d5e:PySkeletonsNode" />
+            </path>
+            <path>
+              <item name="shopee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.1 virtualenv at ~/facebook_tools &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.1 virtualenv at ~/facebook_tools &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.1 virtualenv at ~/facebook_tools &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.1 virtualenv at ~/facebook_tools &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.1 virtualenv at ~/facebook_tools &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="SearchEverywhereHistoryKey" value="model&#9;null&#9;null&#10;tas&#9;FILE&#9;file:///home/z/facebook_tools/shopee/tasks.py&#10;setting&#9;FILE&#9;file:///home/z/facebook_tools/shopee/shopee/settings.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/crawler/static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/crawler" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527617919000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/shops/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-csrftoken" />
+                <option name="value" value="ixMCnXzWwJwbfROtUhLTB6NcEJh8UR8Q" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="https://shopee.vn/%E1%BB%90p-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-Supper-i.18793414.226856348" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-requested-with" />
+                <option name="value" value="XMLHttpRequest" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-api-source" />
+                <option name="value" value="pc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="if-none-match-" />
+                <option name="value" value="55b03-1903f31f18c180c7e7c36c846e75c6fb" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;shop_ids&quot;:[1092388 ]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527617896000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/shops/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-csrftoken" />
+                <option name="value" value="ixMCnXzWwJwbfROtUhLTB6NcEJh8UR8Q" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="https://shopee.vn/%E1%BB%90p-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-Supper-i.18793414.226856348" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-requested-with" />
+                <option name="value" value="XMLHttpRequest" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-api-source" />
+                <option name="value" value="pc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="if-none-match-" />
+                <option name="value" value="55b03-1903f31f18c180c7e7c36c846e75c6fb" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="ga=GA1.2.671873567.1520943508; SPC_IA=-1; SPC_U=-; SPC_EC=-; SPC_F=9FURGq2FgADgg9uDIWQCk7uvZ6zdGAme; REC_T_ID=a2f31766-26b8-11e8-a794-f01fafe1546a; SPC_T_ID=&quot;D43q8UEsRvlMVIWj27dXxUluRRQcx9queiVzRjZY6SeUrG6FUecQuWcibsECoSl682tJAa+o6RyVYpjvSsdgijh5tvZqG5Zsx+eOXHQ/bXM=&quot;; SPC_T_IV=&quot;4Kly1Ws50XCPkM4lJ+hyBA==&quot;; __BWfp=c1520943509159xa7831f1f1; __utmz=20759802.1521616460.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _atrk_siteuid=wxk-N6gRaX_VD_CD; _gac_UA-61914164-6=1.1521616600.CjwKCAjwhcjVBRBHEiwAoDe5x_aTz4zx3CYaQJ-6_JX_49ArBiNXJEZSeiuRM70RVoBaR2Q1MNXx7hoC-rsQAvD_BwE; _aff_network=accesstrade; csrftoken=ixMCnXzWwJwbfROtUhLTB6NcEJh8UR8Q; __utma=20759802.671873567.1520943508.1521616460.1526829416.2; _atrk_sync_cookie=true; _aff_sid=oi2tP2ksHeiZgYgV5rWn31pCVtSqxZtDS0gFhpFsbwQN3r99; cto_lwid=102683a7-a759-4c9b-953a-cbf0761aa948; _gid=GA1.2.596718831.1527525932; SPC_SI=7ggs2rinofa2py43kwfo9aexy2yfu9de; bannerShown=true" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;shop_ids&quot;:[1092388 ]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527617871000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/shops/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-csrftoken" />
+                <option name="value" value="ixMCnXzWwJwbfROtUhLTB6NcEJh8UR8Q" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="https://shopee.vn/%E1%BB%90p-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-Supper-i.18793414.226856348" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-requested-with" />
+                <option name="value" value="XMLHttpRequest" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-api-source" />
+                <option name="value" value="pc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="if-none-match-" />
+                <option name="value" value="55b03-1903f31f18c180c7e7c36c846e75c6fb" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;shop_ids&quot;:[1092388 ]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527617832000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/shops/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-csrftoken" />
+                <option name="value" value="ixMCnXzWwJwbfROtUhLTB6NcEJh8UR8Q" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="https://shopee.vn/%E1%BB%90p-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-Supper-i.18793414.226856348" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-requested-with" />
+                <option name="value" value="XMLHttpRequest" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-api-source" />
+                <option name="value" value="pc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="if-none-match-" />
+                <option name="value" value="55b03-1903f31f18c180c7e7c36c846e75c6fb" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;shop_ids&quot;:[1092388 ]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527617813000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/shops/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-csrftoken" />
+                <option name="value" value="ixMCnXzWwJwbfROtUhLTB6NcEJh8UR8Q" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="https://shopee.vn/%E1%BB%90p-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-Supper-i.18793414.226856348" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-requested-with" />
+                <option name="value" value="XMLHttpRequest" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-api-source" />
+                <option name="value" value="pc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="if-none-match-" />
+                <option name="value" value="55b03-1903f31f18c180c7e7c36c846e75c6fb" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/63.0.3239.84 Chrome/63.0.3239.84 Safari/537.36 x-api-source:pc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;shop_ids&quot;:[1092388 ]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527617753000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/shops/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-csrftoken" />
+                <option name="value" value="ixMCnXzWwJwbfROtUhLTB6NcEJh8UR8Q" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="https://shopee.vn/%E1%BB%90p-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-Supper-i.18793414.226856348" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-requested-with" />
+                <option name="value" value="XMLHttpRequest" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-api-source" />
+                <option name="value" value="pc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="if-none-match-" />
+                <option name="value" value="55b03-1903f31f18c180c7e7c36c846e75c6fb" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;shop_ids&quot;:[1092388 ]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527617733000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/shops/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-csrftoken" />
+                <option name="value" value="ixMCnXzWwJwbfROtUhLTB6NcEJh8UR8Q" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="https://shopee.vn/%E1%BB%90p-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-Supper-i.18793414.226856348" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-requested-with" />
+                <option name="value" value="XMLHttpRequest" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-api-source" />
+                <option name="value" value="pc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;shop_ids&quot;:[1092388 ]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527617703000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/shops/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-csrftoken" />
+                <option name="value" value="ixMCnXzWwJwbfROtUhLTB6NcEJh8UR8Q" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="https://shopee.vn/%E1%BB%90p-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-Supper-i.18793414.226856348" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-requested-with" />
+                <option name="value" value="XMLHttpRequest" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;shop_ids&quot;:[1092388 ]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527617668000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/shops/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-csrftoken" />
+                <option name="value" value="ixMCnXzWwJwbfROtUhLTB6NcEJh8UR8Q" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="https://shopee.vn/%E1%BB%90p-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-Supper-i.18793414.226856348" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;shop_ids&quot;:[1092388 ]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527617643000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/shops/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-csrftoken" />
+                <option name="value" value="ixMCnXzWwJwbfROtUhLTB6NcEJh8UR8Q" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="https://shopee.vn/%E1%BB%90p-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-Supper-i.18793414.226856348" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;shop_ids&quot;:[1092388 ]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527617579000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/shops/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="x-csrftoken" />
+                <option name="value" value="ixMCnXzWwJwbfROtUhLTB6NcEJh8UR8Q" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;shop_ids&quot;:[1092388 ]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527613999000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/shops/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;shop_ids&quot;:[1092388 ]}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527613978000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/comment_list/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="item_id" />
+                <option name="value" value="817219767" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="shop_id" />
+                <option name="value" value="43882275" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="offset" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="limit" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="flag" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="filter" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527612562000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v1/comment_list/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="item_id" />
+                <option name="value" value="817219767" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="shop_id" />
+                <option name="value" value="43882275" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="offset" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="limit" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="flag" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="filter" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527612553000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v2/search_items/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="by" />
+                <option name="value" value="relevancy" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="limit" />
+                <option name="value" value="150" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="match_id" />
+                <option name="value" value="84" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newest" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="order" />
+                <option name="value" value="desc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="page_type" />
+                <option name="value" value="search" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527612532000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v2/search_items/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="by" />
+                <option name="value" value="relevancy" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="limit" />
+                <option name="value" value="200" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="match_id" />
+                <option name="value" value="84" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newest" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="order" />
+                <option name="value" value="desc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="page_type" />
+                <option name="value" value="search" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527612507000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v2/search_items/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="by" />
+                <option name="value" value="relevancy" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="limit" />
+                <option name="value" value="100" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="match_id" />
+                <option name="value" value="84" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newest" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="order" />
+                <option name="value" value="desc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="page_type" />
+                <option name="value" value="search" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="REC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="e0c2af56-6296-11e8-8a71-1866dabc0364" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_EC" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_F" />
+                <option name="path" value="/" />
+                <option name="value" value="EVAzMcqb8iebczKuuDapbH9C0PokET6s" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_IA" />
+                <option name="path" value="/" />
+                <option name="value" value="-1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1527612479000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_SI" />
+                <option name="path" value="/" />
+                <option name="value" value="6qauj6qrdouwmt8h23e8wy8iwkyy95k8" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_ID" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;teiFctxhAcIMyZW4AH5KCe9DNVjHqk7BtjWyVlcr2u7Ne76NIsmjsilyPArJl9rNrqGu2DgG12Vic2jq9ATNY56KDbM31fSSc1yr3btroJ0=&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_T_IV" />
+                <option name="path" value="/" />
+                <option name="value" value="&quot;c2qgEHERiKIt0A1eluoWbw==&quot;" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2158246079000" />
+                <option name="domain" value="shopee.vn" />
+                <option name="name" value="SPC_U" />
+                <option name="path" value="/" />
+                <option name="value" value="-" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v2/search_items/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="by" />
+                <option name="value" value="relevancy" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="limit" />
+                <option name="value" value="500" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="match_id" />
+                <option name="value" value="84" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newest" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="order" />
+                <option name="value" value="desc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="page_type" />
+                <option name="value" value="search" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://shopee.vn" />
+          <option name="urlPath" value="/api/v2/search_items/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="by" />
+                <option name="value" value="relevancy" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="limit" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="match_id" />
+                <option name="value" value="84" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newest" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="order" />
+                <option name="value" value="desc" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="page_type" />
+                <option name="value" value="search" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.shopee">
+    <configuration name="shopee" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="shopee" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6cc6f78-7bbb-4146-90b4-c2c1a4abf5aa" name="Default" comment="" />
+      <created>1527525426176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527525426176</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1031" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1421875" sideWeight="0.48852903" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21006565" sideWeight="0.49583334" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15729167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3289183" sideWeight="0.49786553" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28820962" sideWeight="0.48333332" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5855759" sideWeight="0.49479166" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33733624" sideWeight="0.51666665" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12552084" sideWeight="0.511471" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35875404" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/crawler/templates/shopee/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopee/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/crawlers/base_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="76" column="30" lean-forward="false" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopee/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/crawlers/product_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/templates/shopee/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopee/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/crawlers/base_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="76" column="30" lean-forward="true" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopee/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/crawlers/product_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/templates/shopee/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopee/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/crawlers/base_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="60" column="4" lean-forward="false" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a634e04d/6cf49779-d0a8-4ee9-ac86-bc75a9177191/shopee.public.crawler_unexpectedvalue">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="name='support_unexpectedness'" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopee/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/crawlers/product_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/templates/shopee/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopee/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/crawlers/base_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-1084259904/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="4717" column="8" lean-forward="false" selection-start-line="4717" selection-start-column="8" selection-end-line="4717" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6cf49779-d0a8-4ee9-ac86-bc75a9177191/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="475" column="8" lean-forward="false" selection-start-line="475" selection-start-column="8" selection-end-line="475" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a634e04d/6cf49779-d0a8-4ee9-ac86-bc75a9177191/shopee.public.crawler_shopeestore">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/templates/product/list.html" />
+    <entry file="file://$PROJECT_DIR$/crawler/templates/cookie/list.html" />
+    <entry file="file://$PROJECT_DIR$/crawler/crawlers/base_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/django/db/models/query_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4451">
+          <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/django/db/models/expressions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="499" column="6" lean-forward="false" selection-start-line="499" selection-start-column="6" selection-end-line="499" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a634e04d/6cf49779-d0a8-4ee9-ac86-bc75a9177191/shopee.public.crawler_shopeeproduct">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="rating" languageId="JSON" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a634e04d/6cf49779-d0a8-4ee9-ac86-bc75a9177191/shopee.public.crawler_shopeecomment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/crawlers/product_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a634e04d/6cf49779-d0a8-4ee9-ac86-bc75a9177191/shopee.public.crawler_unexpectedvalue">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="name='support_unexpectedness'" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a634e04d/6cf49779-d0a8-4ee9-ac86-bc75a9177191/shopee.public.crawler_shopeeuser">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="107" column="47" lean-forward="false" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopee/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/templates/shopee/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="135" column="105" lean-forward="false" selection-start-line="135" selection-start-column="105" selection-end-line="135" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopee/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="81" column="43" lean-forward="false" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

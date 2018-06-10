@@ -1,0 +1,187 @@
+{% extends 'base.html' %}
+{% load static humanize %}
+{% block scripts %}
+    {{ block.super }}
+    <script src="{% static 'Chart.bundle.js' %}"></script>
+    <script src="{% static 'Chart.min.js' %}"></script>
+
+    <script>
+
+      $( document ).ready(function() {
+
+
+        new Chart($('#data_percent'), {
+          type: 'doughnut',
+          data: {
+            datasets: [{
+              data: [{{ data_percent.positive }}, {{ data_percent.neutral }}, {{ data_percent.negative }}],
+              backgroundColor: [
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(255, 99, 132, 1)',
+              ],
+            }],
+            labels: [
+              'Tích cực',
+              'Trung tính',
+              'Tiêu cực'
+            ],
+
+          },
+        });
+      });
+
+    </script>
+{% endblock %}
+
+{% block main %}
+    <div class="ui grid container text segment raised">
+        <h1 class="ui header">Phát hiện spam ( hành vi bất thường ) bằng phương pháp luật kết học</h1>
+        <h3>Thành viên nhóm</h3>
+
+        <div>
+            <hr>
+
+            <p>
+                1412235 Võ Xuân Khang
+                <br>
+                1412447 Tôn Trần Thiện Khiêm
+                <br>
+                1412372 Võ Hữu Nhẫn
+            </p>
+            <hr>
+        </div>
+
+        <p>
+            Bằng cách áp dụng phương pháp luật kết học class association rules (CARs).<br>
+            Tác giả đã phát triển để ứng dụng tạo nên một dạng phương pháp mới cho việc phát hiện spam. <br>
+            <br>
+            Dữ liệu sử dụng được mô tả dưới dạng các các thuộc tính A={A1, A2, ..., An} và các phân lớp
+            C={c1, c2, ..., cm}. Một đơn vị dữ liệu được định nghĩa như một luật (A->cn)
+            <br>
+            Phương pháp sẽ nhận vào tập các luật và tính toán các chỉ số phân bố điều kiện Pr(ci | X) (confidence) và
+            phân bố giao Pr(X,ci) (support).
+            <br>
+            <br>
+            Với áp dụng vào phát hiện spam. Tác giả định sẵn tập thuộc tính gồm <b>A = (reviewer_id, brand-id, product_id)</b>
+            và phân lớp dựa trên phần đánh giá của một bình luật (rating). Đánh giá khoảng 4-5 sẽ được cho là khả quan <b>(positive)</b>,
+            khoảng 3 là trung bình <b>(neutral)</b>, khoảng 2, 1 là tiêu cực <b>(negative)</b>.
+            <br>
+
+        </p>
+        <h3>Phần thực hiện của nhóm</h3>
+        <p>
+            Tập dữ liệu thu thập từ website thương mại điện tử <a href="https://shopee.vn">Shopee.vn</a><br>
+
+            Bao gồm dữ liệu sản phẩm, bình luận, người bình luận, nhà cung cấp. <br>
+        </p>
+        <div class="ui medium images">
+            <img src="{% static 'shopee2.png' %}">
+            <img src="{% static 'shopee3..png' %}">
+        </div>
+        <h3>Tỉ lệ phân lớp trong dữ liệu comment (Tổng {{ data_percent.total|intcomma }} )</h3>
+        <canvas id="data_percent" width="200" height="80"></canvas>
+
+        <p>
+            Với <b>{{ user_count|intcomma }}</b> người dùng, <b>{{ product_count|intcomma }}</b> sản phẩm
+            và <b>{{ store_count|intcomma }}</b> nhà cung cấp.
+        </p>
+
+        <h2>Các chỉ số đo độ bất thường được đề xuất</h2>
+
+        <h3>- Độ tin cậy bất thường (Confidence unexpectedness)</h3>
+        <p>Với độ đo này, ta có thể xác định những người dùng luôn đưa ra đánh giá khác biệt với phần lớn những người dùng khác
+        </p>
+        <div class="image">
+            <img src="{% static 'for_1.png' %}" alt="" style="max-width: 100%">
+        </div>
+        <br>
+        <h3>Top 10 người dùng có Confidence = 1 </h3>
+        <div>
+            {% for value in c_user %}
+                <a class="ui teal image label">
+                    {{ value.user.name|truncatechars_html:8 }}
+                    <div class=" ui orange detail label">{{ value.user.shopeecomment_set.all.count }} {{ value.class_name }}</div>
+                </a>
+            {% endfor %}
+        </div>
+        <h3>Top 20 người dùng theo độ đo Confidence unexpectedness</h3>
+        <div>
+            {% for value in uc_user %}
+                <a class="ui teal image label">
+                    {{ value.user.name|truncatechars_html:8 }}
+                    <div class=" detail">{{ value.value|floatformat:4 }} ({{ value.class_name }})</div>
+                    <div class=" ui orange detail label">{{ value.user.shopeecomment_set.all.count }}</div>
+                </a>
+            {% endfor %}
+        </div>
+
+        <div class="ui floating message">
+            <img src="{% static 'res1_1.png' %}" alt="" style="max-width: 100%">
+            <img src="{% static 'res1_2.png' %}" alt="" style="max-width: 100%">
+        </div>
+        <br>
+        <h3>- Độ hỗ trợ bất thường (Support unexpectedness)</h3>
+        <p>Với độ đo này, ta có thể xác định được người dùng nào thường hay viết nhiều đánh giá hơn những người dùng khác
+        </p>
+        <div class="image">
+            <img src="{% static 'for_2.png' %}" alt="" style="max-width: 100%">
+        </div>
+        <h3>Top 20 người dùng theo độ đo Support unexpectedness</h3>
+        <div>
+            {% for value in usp_user %}
+                <a class="ui teal image label">
+                    {{ value.user.name|truncatechars_html:8 }}
+                    <div class=" detail">{{ value.value|floatformat:2 }}</div>
+                    <div class=" ui green detail label">{{ value.user.shopeecomment_set.class_count.total  }} positive comments</div>
+                </a>
+            {% endfor %}
+        </div>
+        <br>
+
+        <div class="ui floating message">
+            <img src="{% static 'res2.png' %}" alt="" style="max-width: 100%">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+
+            <h2>Nguồn kham khảo</h2>
+        </div>
+        <br>
+
+        <div class="ui divided list">
+            <div class="item">
+                <div class="content">
+                    <b class="header">Jindal, N, Liu, B, Opinion spam and analysis. WSDM, 2008.</b>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="content">
+                    <b class="header">Jindal, N., Liu, B. and Lim, E-P. Finding atypical review
+                        patterns for detecting opinion spammers. UIC Tech. Rep., 2010.</b>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <b class="header">Liu, B., Hsu W., and Ma Y. Integrating classification and
+                        association rule mining. KDD, 1998</b>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <b class="header">Jindal, Nitin, Bing Liu, and Ee-Peng Lim. Finding Unusual Review Patterns Using Unexpected Rules.
+                        In Proceedings of ACM International Conference on Information and Knowledge Management
+                        (CIKM-2010). 2010. doi:10.1145/1871437.1871669</b>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+{% endblock %}

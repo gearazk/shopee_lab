@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static custom_tags %}
+
+
+{% block main %}
+
+    <div class="ui segment">
+        <form class="ui form" method="post">
+            {% csrf_token %}
+            <div class="field">
+                <label>Username</label>
+                <input type="text" name="username" placeholder="Username">
+            </div>
+            <div class="field">
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <button class="ui button" type="submit">Submit</button>
+        </form>
+    </div>
+{% endblock %}
+{% block script %}
+    {{ block.super }}
+{% endblock %}
